@@ -420,12 +420,13 @@ footer p {
     margin-left: 400px;
 }
 @media screen and (max-width: 576px) {
-header nav ul {
+ header nav ul {
  display:none;
 
 }
 header{
     width: 350px;
+    margin-left: 50px;
 }
 #icon{
     display: block;
@@ -459,17 +460,17 @@ font-size: 30px;
 }
 #free {
     top: 450px;
-    left: 470px;
+    left: 280px;
 }
 .video{
-    top: 550px;
-    left: 360px;
+    top: 600px;
+    left: 140px;
   width: 130px;
   height: 50px;
 }
 .habits {
     margin-top: 310px;
-   margin-left:450px;
+   margin-left:250px;
 }
 .hbmain h2{
     font-size: 20px;
@@ -506,6 +507,7 @@ font-size: 30px;
     flex-direction: column;
     gap: 40px;
    margin-right: 300px;
+   margin-left: 100px;
    
 }
 .run .statement{
@@ -517,7 +519,11 @@ font-size: 30px;
 .wr h2 {
   font-size: 30px;
   width: 300px;
+ 
   
+}
+.wr {
+    margin-left: 140px;
 }
 .wr .statement {
     font-size: 12px;
@@ -527,7 +533,7 @@ font-size: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
- margin-left: 300px;
+ margin-left: 100px;
   }
   .chart {
     margin-left: 20px;
@@ -554,7 +560,7 @@ font-size: 30px;
     margin-left: 20px;
   }
   .diet-con{
-    margin-left: 300px;
+    margin-left: 130px;
   }
   .diet-con h4 {
     font-size: 30px;
@@ -567,24 +573,24 @@ font-size: 30px;
     }
     .diet form {
         grid-template-columns:repeat(2,150px);
-        margin-left: 300px; 
+        margin-left: 130px; 
     }
     .pr h2 {
         font-size: 25px;
         width: 260px;
-        margin-left: 300px;
+        margin-left: 130px;
       }
       .pr .statement {
           font-size: 10px;
        width: 230px;
-       margin-left: 320px;
+       margin-left: 130px;
         }
         .image {
             display: flex;
             flex-direction: column;
             height: 1300px;
             width: 200px;
-            margin-left: 330px;
+            margin-left: 130px;
         }
         .image img {
             height: 150px;
@@ -592,7 +598,7 @@ font-size: 30px;
         }
         footer {
             width: 250px;
-            margin-left: 330px;
+            margin-left: 130px;
             height: 600px;
         }
    .content {
