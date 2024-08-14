@@ -42,7 +42,7 @@ nav ul{
 button{
     border-radius: 16px;
     border: none;
-padding: 6px 12px;
+padding: 10px 20px;
 background-color: rgb(230, 83, 60);
 color: white;
 font-size: 11px;
@@ -140,5 +140,172 @@ left: 500px;
 }
 header{
  width: 100%;
- height: 600px;
+ height: 400px;
+}
+/* habits section styles */
+.habits h2{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+  
+}
+.statement{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.img h4{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.hbmain{
+    display: flex;
+   flex-direction: column;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.img {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+ justify-content: center;
+ align-items: center;
+    text-align: center;  
+  
+}
+.img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.images {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+   
+}
+.habits{
+   margin-top: 30px;
+   margin-bottom: 90px;
+   margin-right: 450px;
+}
+.write h2 {
+color: white;
+font-size: 40px;
+font-weight: 900;
+line-height: 120%;
+margin-bottom: 10px;
+}
+.run {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    background-color:rgb(34, 34, 34) ;
+    border-radius: 15px;
+    padding: 30px ;
+    margin-right: 450px;
+    margin-left: 50px;
+
+}
+.run img {
+    height: 210px;
+    width: 210px;
+    border-radius: 15px;
+}
+/* bmi calculator */
+.wr{
+    margin: 30px 200px;
+}
+.wr h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+.heading{
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 900;
+margin-top: 25px;
+
+}
+table,th,td{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+th {
+    color:white ;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+th,td {
+    padding: 10px;
+}
+select,input,option{
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;  
+    border-radius: 8px; 
+    border:none;
+
+}
+form{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2,200px);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.process {
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+.chart {
+    margin-right: 200px;
+    margin-left: 100px;
+}
+.calc button{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.calculator {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pr h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.pr {
+    text-align: center;
+}
+.image {
+    border-radius: 15px;
+display: grid;
+grid-template-columns: repeat(3,200px);
+background-color: rgba(255, 255, 255, 0.1);
+
+
+}
+.image img {
+    border: none;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+   
 }
