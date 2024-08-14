@@ -394,3 +394,17 @@ footer p {
     margin-top: 30px;
 
 }
+.diet h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 10px; 
+}
+.diet-con {
+   text-align: center;
+  
+}
+.diet form {
+    margin-left: 400px;
+}
