@@ -212,7 +212,7 @@ margin-bottom: 10px;
     background-color:rgb(34, 34, 34) ;
     border-radius: 15px;
     padding: 30px ;
-    margin-right:350px;
+    margin-right:390px;
     margin-left: 290px;
 
 }
@@ -341,4 +341,56 @@ top: 20px;
 #four,#five,#six {
    position: relative;
   bottom: 20px;
+}
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 350px;
+   
+}
+.fit,.menu,.menus {
+    margin-top: 30px;
+margin-left: 100px;
+}
+
+.fit h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    margin-left: 27px;
+}
+.start{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    width: 100px;
+}
+.item {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    list-style-type: none;
+    width: 200px;
+}
+hr {
+
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+footer p {
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 13px;
+    font-weight: 400; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+
 }
